@@ -1,5 +1,5 @@
 import React from 'react';
-import collage1 from '../../images/collage1.jpg';
+import collage1 from '../components/images_gallery/collage1.jpg';
 import collage2 from '../components/images_gallery/collage2.jpg';
 import collage3 from '../components/images_gallery/collage3.jpg';
 import collage4 from '../components/images_gallery/collage4.jpg';
@@ -14,7 +14,7 @@ export const ImageGallery = () => {
         <div className="flex flex-wrap md:-m-2 -m-1">
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-1/2">
-              <img alt="gallery" className="w-full object-cover h-full object-center block" src={collage5} loading="lazy" />
+              <img alt="gallery" className="w-full object-cover h-full object-center block" src={collage1} loading="lazy" />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <img alt="gallery" className="w-full object-cover h-full object-center block" src={collage2} loading="lazy" />
