@@ -5,7 +5,7 @@ import { dataQuotes } from "../data/dataQuotes";
 import { useState } from "react";
 import { Fotter } from "../components/Fotter";
 import { Testimonials } from "../components/Testimonials";
-import { ImageGallery } from "../components/ImageGalery";
+//import { ImageGallery } from "../components/ImageGalery";
 import platillo from '../../images/about.jpg'
 import { NavLink } from "react-router-dom";
 
@@ -29,7 +29,7 @@ export const LandingPage = () => {
       <Header />
 
       <InformationLandingPage />
-      <ImageGallery />
+      {/*<ImageGallery />*/}
 
       <div className="container mx-auto mt-5 p-8 text-center text-gray-900 bg-white">
         <h2 className="text-3xl md:text-5xl font-extrabold mb-6">
