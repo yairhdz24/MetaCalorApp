@@ -1,9 +1,9 @@
 import React from 'react';
-import collage1 from '../../images/collage1.jpg'
-import collage2 from '../components/images_gallery/collage2.jpg'
-import collage3 from '../components/images_gallery/collage3.jpg'
-import collage4 from '../components/images_gallery/collage4.jpg'
-import collage5 from '../components/images_gallery/collage5.jpg'
+import collage1 from '../../images/collage1.jpg';
+import collage2 from '../components/images_gallery/collage2.jpg';
+import collage3 from '../components/images_gallery/collage3.jpg';
+import collage4 from '../components/images_gallery/collage4.jpg';
+import collage5 from '../components/images_gallery/collage5.jpg';
 
 export const ImageGallery = () => {
   return (
