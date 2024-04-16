@@ -29,6 +29,7 @@ export const LandingPage = () => {
       <Header />
 
       <InformationLandingPage />
+      <ImageGallery />
 
       <div className="container mx-auto mt-5 p-8 text-center text-gray-900 bg-white">
         <h2 className="text-3xl md:text-5xl font-extrabold mb-6">
